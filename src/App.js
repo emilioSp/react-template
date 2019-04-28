@@ -6,4 +6,4 @@ const App = () => {
   return <TimeContainer/>
 };
 
-ReactDOM.render(<App/>, document.getElementById("app"));
+ReactDOM.render(<App/>, document.getElementById('app'));
