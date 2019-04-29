@@ -2,8 +2,10 @@
   "env": {
     "browser": true,
     "commonjs": true,
-    "es6": true
+    "es6": true,
+    "node": true
   },
+  "parser": "babel-eslint",
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended"
@@ -34,7 +36,9 @@
       "error",
       "single"
     ],
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "no-console": "off",
+    "curly": "error"
   },
   "settings": {
     "react": {
