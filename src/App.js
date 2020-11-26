@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { TimeContainer } from './TimeContainer';
+import { Time } from './Time';
 
-const App = () => {
-  return <TimeContainer/>
-};
+const App = () => <Time/>;
 
 ReactDOM.render(<App/>, document.getElementById('app'));
