@@ -1,7 +1,5 @@
-const React = require('react');
+import React from 'react';
 
-const Time = ({currentTime}) => {
+export const Time = ({currentTime}) => {
   return <div>Current time: {currentTime}</div>
 };
-
-module.exports = Time;

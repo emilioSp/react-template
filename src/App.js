@@ -1,6 +1,6 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
-const TimeContainer = require('./TimeContainer');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { TimeContainer } from './TimeContainer';
 
 const App = () => {
   return <TimeContainer/>

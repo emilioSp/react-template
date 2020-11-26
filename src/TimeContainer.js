@@ -1,7 +1,7 @@
-const React = require('react');
-const Time = require('./Time');
+import React from 'react';
+import { Time } from './Time';
 
-class TimeContainer extends React.Component {
+export class TimeContainer extends React.Component {
 
   constructor(props) {
     super(props);
@@ -22,5 +22,3 @@ class TimeContainer extends React.Component {
     return <Time currentTime={this.state.currentTime.toLocaleString()} />
   }
 }
-
-module.exports = TimeContainer;
