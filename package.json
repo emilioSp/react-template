@@ -6,8 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack serve",
-    "eslint": "eslint --fix ./src",
-    "prettier": "prettier --write ./src"
+    "eslint": "eslint --fix ./src"
   },
   "dependencies": {
     "react": "^17.0.1",
