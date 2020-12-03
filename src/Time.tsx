@@ -1,8 +1,13 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-export const Time = () => {
+type Props = {
+  x: number;
+};
+
+export const Time = ({ x }: Props) => {
   const [time, setTime] = useState(new Date());
+  console.log('Only to test typescript!', x);
 
   useEffect(() => {
     setInterval(() => setTime(new Date()), 1000);
