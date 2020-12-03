@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack serve",
-    "eslint": "eslint ./src"
+    "eslint": "eslint ./src",
+    "prettier": "prettier --write ./src"
   },
   "dependencies": {
     "react": "^17.0.1",
@@ -20,8 +21,10 @@
     "babel-loader": "^8.0.5",
     "css-loader": "^5.0.1",
     "eslint": "^7.14.0",
-    "eslint-plugin-react": "^7.12.4",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-react": "^7.21.5",
     "html-webpack-plugin": "^4.5.0",
+    "prettier": "2.2.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.7.0",
     "webpack-bundle-analyzer": "^4.1.0",

@@ -7,5 +7,5 @@ export const Time = () => {
     setInterval(() => setTime(new Date()), 1000);
   }, [time]);
 
-  return <h1>Current time: {time.toLocaleString()}</h1>
+  return <h1>Current time: {time.toLocaleString()}</h1>;
 };
