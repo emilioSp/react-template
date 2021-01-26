@@ -42,11 +42,10 @@ module.exports = {
     rules: [
       { test: /\.(m)?js$/, use: ['babel-loader'], exclude: /node_modules/ },
       {
-        test: /\.(s)?css$/,
+        test: /\.css$/,
         use: [
           isProduction ? MiniCssExtractPlugin.loader : 'style-loader',
           'css-loader',
-          'sass-loader',
         ],
       },
       {
