@@ -6,7 +6,6 @@
   "scripts": {
     "build": "NODE_ENV=production webpack --mode=production",
     "serve:dev": "NODE_ENV=development webpack serve --mode=development",
-    "eslint": "eslint --fix ./src",
     "bundle-analyze": "NODE_ENV=production webpack --analyze"
   },
   "dependencies": {
