@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack --mode=production",
-    "start:dev": "NODE_ENV=development webpack serve --mode=development",
+    "serve:dev": "NODE_ENV=development webpack serve --mode=development",
     "eslint": "eslint --fix ./src",
     "bundle-analyze": "NODE_ENV=production webpack --analyze"
   },
